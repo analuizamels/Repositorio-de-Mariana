@@ -1,0 +1,157 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #fff0f6; /* tom rosado suave */
+  color: #4a3c72; /* roxo escuro */
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  padding: 2rem 1rem;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(186, 85, 211, 0.3); /* sombra roxa suave */
+  max-width: 600px;
+  margin: 3rem auto 2rem;
+  text-align: center;
+}
+
+header img {
+  border: 5px solid #ba55d3; /* roxo */
+  box-shadow: 0 0 15px rgba(186, 85, 211, 0.4);
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+
+header p.lead {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #a64ca6; /* roxo claro */
+  margin-bottom: 0.5rem;
+}
+
+header h1 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #4a3c72;
+}
+
+header p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header .badge {
+  font-size: 0.9rem;
+  margin: 0.3rem 0.5rem 0.5rem 0;
+  padding: 0.4rem 0.9rem;
+  border-radius: 15px;
+  background-color: #d8b9e9;
+  color: #4a3c72;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Main */
+main {
+  max-width: 960px;
+  margin: 0 auto 3rem;
+  padding: 0 1rem;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  color: #4a3c72;
+}
+
+/* Cards */
+.card {
+  box-shadow: 0 0 15px rgba(186, 85, 211, 0.2);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 1rem 1.5rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.7rem;
+  font-weight: 700;
+  color: #6a2c91;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #6a2c91;
+  margin-bottom: 1rem;
+}
+
+.btn-link {
+  font-weight: 600;
+  color: #ba55d3;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background: #fff;
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #e5d4f4;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(186, 85, 211, 0.2);
+  color: #4a3c72;
+}
+
+footer h2 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+footer a {
+  color: #ba55d3;
+  margin: 0 0.5rem;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+footer a:hover {
+  color:
